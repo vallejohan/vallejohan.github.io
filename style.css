@@ -1,0 +1,309 @@
+
+
+html, body {
+   font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    position: center;
+    background-image: url("http://i.imgur.com/aXonNly.png");
+   
+   /*background-image: url("http://i.imgur.com/I8d0FWy.jpg");*/
+    /*background: #778899;
+    /*background-repeat: no-repeat;*/
+    /*background-image: url("http://i.imgur.com/ORP11iT.png");*/
+    /*color: AliceBlue;*/
+    /*background-color: CadetBlue;*/
+    /*background: #141E30*/
+}
+
+
+.lower_background {
+    position: absolute;
+    top: 400px;
+    -webkit-transform: rotate(45deg);
+}
+
+nav ul {
+    
+    display: inline;
+    color: AliceBlue;
+    position: absolute;
+    top: 3500;
+    left: 200;
+    padding-bottom: 5px;
+
+}
+
+nav li {
+    position: center;
+    padding: 0 10px;
+    display: inline;
+}
+
+
+.first {
+    color: AliceBlue;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    top: 20px;
+    font-size: 78px;
+    font-weight: bold;
+    -webkit-animation-delay: 0.5s;
+}
+
+.second {
+    color: AliceBlue;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    top: 340px;
+    font-size: 48px;
+    font-weight: bold;
+    -webkit-animation-delay: 2.0s;
+}
+
+.third {
+    color: AliceBlue;
+    border: 3px solid AliceBlue;
+    background: rgb(22, 134, 168);
+    background: rgba(108, 175, 209, 0.1);
+    cursor: pointer;
+    position: absolute;
+    left: 620;
+    top: 50%;
+    width: 200px;
+    height: 50;px;
+    text-align: center;
+    top: 650px;
+    font-size: 32px;
+    -webkit-animation-delay: 4.5s;
+}
+
+nav a {
+    color: orange;
+}
+
+.scroll_down {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    top: 710px;
+    -webkit-animation-delay: 4.8s;
+}
+
+.logo {
+    position: absolute;
+    left: 9;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    top: 200px;
+    -webkit-animation-delay: 4.0s;
+    -webkit-transform: rotate(45deg);
+}
+
+.item {
+    color: AliceBlue;
+    position: absolute;
+    left: 230px;
+    top: 50%;
+    text-align: center;
+    top: 1000px;
+    font-size: 32px;
+    border-bottom: 3px solid AliceBlue;
+}
+
+#item_welcome {
+    font-size: 72px;
+    font-weight: bold;
+    border-bottom: 3px solid AliceBlue;
+}
+
+/* styles for music pages */
+.soundcloud {
+    position: absolute;
+    left: 600;
+    top: 50%;
+    top: 1330px;
+}
+
+.facebook {
+    position: absolute;
+    left: 700;
+    top: 50%;
+    top: 1330px;
+}
+
+.youtube {
+    position: absolute;
+    left: 800;
+    top: 1330px;
+}
+
+/*------------------------*/
+
+.tracks {
+    color: AliceBlue;
+    position: absolute;
+    left: 510;
+    top: 1700;
+    font-size: 48px;
+    border-bottom: 3px solid AliceBlue;
+}
+
+/* Soundcloud styles */
+.soundcloud_lean_on {
+    border: 20px solid rgb(22, 134, 168);
+    border: 20px solid rgba(108, 175, 209, 0.5);
+    position: absolute;
+    left:723;
+    top: 50%;
+    width 100px;
+    height: 205px;
+    top: 1800px;
+}
+
+.soundcloud_blind {
+    border: 20px solid rgb(22, 134, 168);
+    border: 20px solid rgba(108, 175, 209, 0.5);
+    opacity: 50%;
+    position: absolute;
+    left:277;
+    top: 50%;
+    width 100px;
+    height: 205px;
+    top: 1800px;
+}
+
+.soundcloud_echoes {
+    border: 20px solid rgb(22, 134, 168);
+    border: 20px solid rgba(108, 175, 209, 0.5);
+    position: absolute;
+    left: 277;
+    top: 50%;
+    width 100px;
+    height: 205px;
+    top: 2010px;
+}
+
+
+
+.soundcloud_gyroscope {
+    border: 20px solid rgb(22, 134, 168);
+    border: 20px solid rgba(108, 175, 209, 0.5);
+    position: absolute;
+    left: 723;
+    top: 50%;
+    width 100px;
+    height: 205px;
+    top: 2010px;
+}
+
+.soundcloud_diffusion {
+    border: 20px solid rgb(22, 134, 168);
+    border: 20px solid rgba(108, 175, 209, 0.5);
+    position: absolute;
+    left: 277;
+    top: 50%;
+    width 100px;
+    height: 205px;
+    top: 2220px;
+}
+
+.soundcloud_lunar_remix {
+    border: 20px solid rgb(22, 134, 168);
+    border: 20px solid rgba(108, 175, 209, 0.5);
+    position: absolute;
+    left: 723;
+    top: 50%;
+    width 100px;
+    height: 205px;
+    top: 2220px;
+}
+
+.soundcloud_album1_one_year {
+    border: 20px solid rgb(22, 134, 168);
+    border: 20px solid rgba(108, 175, 209, 0.5);
+    position: absolute;
+    left: 277;
+    top: 50%;
+    width 100px;
+    height: 205px;
+    top: 2430px;
+}
+
+.soundcloud_album1_away {
+    border: 20px solid rgb(22, 134, 168);
+    border: 20px solid rgba(108, 175, 209, 0.5);
+    position: absolute;
+    left: 723;
+    top: 50%;
+    width 100px;
+    height: 205px;
+    top: 2430px;
+}
+
+.soundcloud_album1_ach_ja {
+    border: 20px solid rgb(22, 134, 168);
+    border: 20px solid rgba(108, 175, 209, 0.5);
+    position: absolute;
+    left: 277;
+    top: 50%;
+    width 100px;
+    height: 205px;
+    top: 2640px;
+}
+
+.soundcloud_album1_loose_control {
+    border: 20px solid rgb(22, 134, 168);
+    border: 20px solid rgba(108, 175, 209, 0.5);
+    position: absolute;
+    left: 723;
+    top: 50%;
+    width 100px;
+    height: 205px;
+    top: 2640px;
+}
+
+/*--------------------*/
+
+.soundcloud_more_tracks {
+    color: AliceBlue;
+    position: absolute;
+    text-align: center;
+    left: 600;
+    top: 2900px;
+    border: 4px solid Aliceblue;
+    height: 200px;
+    width: 250px;
+    background: rgb(22, 134, 168);
+    background: rgba(108, 175, 209, 0.5);
+}
+
+#underline {
+    border-bottom: 3px solid AliceBlue;
+}
+
+#soundcloud_more
+{
+    position: absolute;
+    margin-top: 10px;
+    left: 70;
+}
+
+/*.item20 {
+    color: AliceBlue;
+    position: absolute;
+    left: 250;
+    top: 50%;
+    text-align: center;
+    top: 3500px;
+    font-size: 16px;
+}*/
+
