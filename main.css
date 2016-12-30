@@ -52,7 +52,6 @@ nav li {
     top: 20px;
     font-size: 78px;
     font-weight: bold;
-    -webkit-animation-delay: 0.5s;
 }
 
 .second {
@@ -65,7 +64,7 @@ nav li {
     top: 340px;
     font-size: 48px;
     font-weight: bold;
-    -webkit-animation-delay: 2.0s;
+    -webkit-animation-delay: 3.0s;
 }
 
 .third {
@@ -82,7 +81,7 @@ nav li {
     text-align: center;
     top: 650px;
     font-size: 32px;
-    -webkit-animation-delay: 4.5s;
+    -webkit-animation-delay: 5.0s;
 }
 
 nav a {
@@ -96,7 +95,7 @@ nav a {
     width: 100%;
     text-align: center;
     top: 710px;
-    -webkit-animation-delay: 4.8s;
+    -webkit-animation-delay: 5.3s;
 }
 
 .logo {
