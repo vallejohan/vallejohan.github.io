@@ -144,7 +144,7 @@ html, body {
 }
 
 
-#form-wrap {
+/*#form-wrap {
     width: 600px;
     border: 5px solid #ccc;
     background: rgba(108, 175, 209, 0.1);
@@ -195,7 +195,7 @@ form h4 {
     font: 24p sans-serif;
     color: cornflowerblue;
     font-weight: bold;
-}
+}*/
 
 
 nav ul {
